@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PhotoViewer Component Should match snapshot with text and image 1`] = `
+<div
+  className="myClass"
+>
+  <h1
+    className="title"
+  >
+     Hello 
+    Mary
+    ! 
+  </h1>
+  <img
+    alt="The selected view"
+    className="image"
+    src="https://picsum.photos/id/600/1600/900.jpg"
+  />
+</div>
+`;

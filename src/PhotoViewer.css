@@ -1,0 +1,42 @@
+.myClass {
+    color:aqua;
+}
+
+.title {
+    color: aqua;
+}
+
+.img-gallery ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    width: 970px;
+    padding: 0;
+}
+
+.img-gallery ul li {
+    width: 200px;
+    margin-right: 10px;
+}
+.img-gallery img {
+    width: 194px;
+    height: 119.375px;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.img-gallery img:hover {
+    border: 3px solid  #eb9e34
+}
+
+/* .img-display img {
+    width: 970px;
+} */
+
+.image {
+    width: 830px;
+    border-radius: 5%;
+    border: 3px solid  #eb9e34
+}
